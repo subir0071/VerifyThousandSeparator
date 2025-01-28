@@ -22,4 +22,4 @@ public class TestClass
         Assert.That(formattedValue, Is.EqualTo("1\u202F000 €"));
     }
 }
-using System;
+
