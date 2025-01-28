@@ -11,7 +11,7 @@ public class TestClass
     public void Should_not_fail_with_basic_assert()
     {
         const decimal input = 1000.31m;
-        Assert.That($"{input:C0}", Is.EqualTo("1\u202F000 €"));
+        Assert.That("{input:C0}", Is.EqualTo("1\u202F000 €"));
 
        
     }
