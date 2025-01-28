@@ -19,7 +19,7 @@ public class TestClass
         string formattedValue = string.Format(CultureInfo.GetCultureInfo("fr-FR"), "{0:C0}", input);
 
         // Assert
-        Assert.That(formattedValue, Is.EqualTo("1\u202F000 €"));
+        Assert.That(formattedValue, Is.EqualTo("1\u202f000 €"));
     }
 }
 
