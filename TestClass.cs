@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using System;
 using System.Globalization;
-using Linq;
+using System.Linq;
 namespace VerifyThousandSeparator;
 
 public class TestClass
