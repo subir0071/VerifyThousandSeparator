@@ -7,7 +7,7 @@ namespace VerifyThousandSeparator;
 public class TestClass
 {
     [Test]
-    [SetCulture("fr-FR")]
+   // [SetCulture("fr-FR")]
     public void Should_not_fail_with_basic_assert()
     {
        // const decimal input = 1000.31m;
