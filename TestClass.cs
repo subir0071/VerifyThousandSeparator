@@ -31,6 +31,6 @@ public class TestClass
         // Assert: Compare the result with the expected output containing U+202F (narrow no-break space)
         Assert.That(formattedValue, Is.EqualTo("1\u202F000 €"));
     }
-    }
+    
 }
 
